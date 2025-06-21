@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CsharpProjects\\LearnMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\views\\product\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\views\\product\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\views\\product\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\views\\product\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\models\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\models\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowById.cshtml",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowById.cshtml",
+              "RelativeDocumentMoniker": "IntroForMVC\\Views\\Product\\ShowById.cshtml",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowById.cshtml",
+              "RelativeToolTip": "IntroForMVC\\Views\\Product\\ShowById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T17:44:53.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "IntroForMVC\\Views\\Product\\ShowAll.cshtml",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowAll.cshtml",
+              "RelativeToolTip": "IntroForMVC\\Views\\Product\\ShowAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T17:44:08.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "IntroForMVC\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "IntroForMVC\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:36:09.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductBL.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\ProductBL.cs",
+              "RelativeDocumentMoniker": "IntroForMVC\\Models\\ProductBL.cs",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\ProductBL.cs",
+              "RelativeToolTip": "IntroForMVC\\Models\\ProductBL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:35:09.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "IntroForMVC\\Models\\Product.cs",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\Product.cs",
+              "RelativeToolTip": "IntroForMVC\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:34:16.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
