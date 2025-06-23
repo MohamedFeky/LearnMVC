@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "D:\\CsharpProjects\\LearnMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\views\\product\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\views\\product\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApplyWhatILearn/True/SqlTable/dbo.Instructors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\views\\product\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\views\\product\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\views\\instructor\\showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\views\\instructor\\showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\models\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\models\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|d:\\csharpprojects\\learnmvc\\introformvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659F1F0D-71C2-4C35-8C46-1B13B0C78B5F}|IntroForMVC\\IntroForMVC.csproj|solutionrelative:introformvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\views\\instructor\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\views\\instructor\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +25,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShowById.cshtml",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowById.cshtml",
-              "RelativeDocumentMoniker": "IntroForMVC\\Views\\Product\\ShowById.cshtml",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowById.cshtml",
-              "RelativeToolTip": "IntroForMVC\\Views\\Product\\ShowById.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T17:44:53.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShowAll.cshtml",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowAll.cshtml",
-              "RelativeDocumentMoniker": "IntroForMVC\\Views\\Product\\ShowAll.cshtml",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Views\\Product\\ShowAll.cshtml",
-              "RelativeToolTip": "IntroForMVC\\Views\\Product\\ShowAll.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "ShowUser.cshtml",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Instructor\\ShowUser.cshtml",
+              "RelativeDocumentMoniker": "ApplyWhatILearn\\Views\\Instructor\\ShowUser.cshtml",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Instructor\\ShowUser.cshtml",
+              "RelativeToolTip": "ApplyWhatILearn\\Views\\Instructor\\ShowUser.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T17:44:08.721Z",
+              "WhenOpened": "2025-06-23T16:28:00.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "IntroForMVC\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "IntroForMVC\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAqAAAAAAAAAA==",
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "ApplyWhatILearn\\Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "ApplyWhatILearn\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:36:09.64Z",
+              "WhenOpened": "2025-06-23T16:11:52.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Instructors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApplyWhatILearn/True/SqlTable/dbo.Instructors.sql",
+              "ToolTip": "dbo.Instructors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-23T16:26:46.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductBL.cs",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\ProductBL.cs",
-              "RelativeDocumentMoniker": "IntroForMVC\\Models\\ProductBL.cs",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\ProductBL.cs",
-              "RelativeToolTip": "IntroForMVC\\Models\\ProductBL.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAsAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:35:09.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "IntroForMVC\\Models\\Product.cs",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\IntroForMVC\\Models\\Product.cs",
-              "RelativeToolTip": "IntroForMVC\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:34:16.384Z",
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Instructor\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "ApplyWhatILearn\\Views\\Instructor\\ShowAll.cshtml",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Instructor\\ShowAll.cshtml",
+              "RelativeToolTip": "ApplyWhatILearn\\Views\\Instructor\\ShowAll.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T16:23:29.706Z",
               "EditorCaption": ""
             }
           ]
