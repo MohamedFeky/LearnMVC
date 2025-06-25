@@ -1,3 +1,4 @@
+
 namespace ApplyWhatILearn
 {
     public class Program
@@ -8,6 +9,13 @@ namespace ApplyWhatILearn
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            // AutoMapper
+            builder.Services.AddAutoMapper(typeof(Program)); // ?? typeof(EmployeeProfile)
+
+
+
+
+
 
             var app = builder.Build();
 
