@@ -1,0 +1,52 @@
+﻿@using ApplyWhatILearn.ViewModel
+@model CourseCreateViewModel
+@{
+    ViewData["Title"] = "Create Course";
+  //  SelectList selectDeptOption = new SelectList(DeptList, "Id", "Name");
+    //  Layout = null;
+}
+
+<!DOCTYPE html>
+
+<form asp-controller="Course" asp-action="CreateCourse" method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form form-control" />
+    </div>
+    <div>
+        <label asp-for="Degree"></label>
+        <input asp-for="Degree" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="MinDegree"></label>
+        <input asp-for="MinDegree" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="Hours"></label>
+        <input asp-for="Hours" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="DeptId">Department</label>
+        <select asp-for="DeptId" class="form-control">
+           <option value="">-- Select Department --</option>
+            @foreach (var deptItem in Model.DeptList)
+            {
+                if (Model.DeptId == deptItem.Id)
+                {
+                    <option value="@deptItem.Id" selected>@deptItem.Name</option>
+                }
+                else
+                {
+                    <option value="@deptItem.Id">@deptItem.Name</option>
+
+                }
+            }
+        </select>
+
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Save</button>
+
+</form>

@@ -1,4 +1,7 @@
 
+using ApplyWhatILearn.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace ApplyWhatILearn
 {
     public class Program
@@ -12,6 +15,8 @@ namespace ApplyWhatILearn
             // AutoMapper
             builder.Services.AddAutoMapper(typeof(Program)); // ?? typeof(EmployeeProfile)
 
+            builder.Services.AddDbContext<AppDbContext>(options =>
+             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 

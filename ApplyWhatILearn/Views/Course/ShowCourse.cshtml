@@ -1,0 +1,26 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "ShowCourse";
+}
+
+<h1>Course Details</h1>
+
+<table class="table table-hover table-bordered">
+    <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Degree</th>
+        <th>MinDegree</th>
+        <th>Hours</th>
+        <th>Department</th>
+
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Degree</td>
+        <td>@Model.MinDegree</td>
+        <td>@Model.Hours</td>
+        <td>@Model.Department?.Name</td>
+    </tr>
+</table>

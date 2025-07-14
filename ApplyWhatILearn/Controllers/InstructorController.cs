@@ -9,19 +9,18 @@ namespace ApplyWhatILearn.Controllers
 {
     public class InstructorController : Controller
     {
-        public AppDbContext context = new AppDbContext();
-         
-        private readonly IMapper _mapper;
-       // private readonly AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public InstructorController(IMapper mapper)
+        private readonly IMapper _mapper;
+        public InstructorController(AppDbContext context, IMapper mapper)
         {
+            _context = context;
             _mapper = mapper;
 
         }
         public IActionResult ShowAll()
         {
-            List<Instructor> instructorsList = context.Instructors
+            List<Instructor> instructorsList = _context.Instructors
                 .Include(i => i.Department)
                 .Include(i => i.Course)
                 .ToList();
@@ -30,7 +29,7 @@ namespace ApplyWhatILearn.Controllers
 
         public IActionResult ShowUser(int id)
         {
-            Instructor instructor = context.Instructors
+            Instructor instructor = _context.Instructors
                 .Include(i => i.Department)
                 .Include(i => i.Course)
                 .FirstOrDefault(i => i.Id == id);
@@ -40,10 +39,10 @@ namespace ApplyWhatILearn.Controllers
 
         public IActionResult Edite(int id)
         {
-            Instructor instructor = context.Instructors.FirstOrDefault(i => i.Id == id);
+            Instructor instructor = _context.Instructors.FirstOrDefault(i => i.Id == id);
             var instructorViewModel = _mapper.Map<InstructorCreateViewModel>(instructor);
-            instructorViewModel.DeptList = context.Departments.ToList();
-            instructorViewModel.CrsList = context.Courses.ToList();
+            instructorViewModel.DeptList = _context.Departments.ToList();
+            instructorViewModel.CrsList = _context.Courses.ToList();
             return View("Edite", instructorViewModel);
         }
         
@@ -52,16 +51,16 @@ namespace ApplyWhatILearn.Controllers
         {
             if(instFromRequest.Name != null)
             {
-                var instructorModel = context.Instructors.FirstOrDefault(i => i.Id == id);
+                Instructor instructorModel = _context.Instructors.FirstOrDefault(i => i.Id == id);
 
                 _mapper.Map(instFromRequest, instructorModel);
-                context.Instructors.Update(instructorModel);
-                context.SaveChanges();
+                _context.Instructors.Update(instructorModel);
+                _context.SaveChanges();
                 return RedirectToAction("ShowUser", new { id = instructorModel.Id });
             }
 
-            instFromRequest.DeptList = context.Departments.ToList();
-            instFromRequest.CrsList = context.Courses.ToList();
+            instFromRequest.DeptList = _context.Departments.ToList();
+            instFromRequest.CrsList = _context.Courses.ToList();
             return View("Edite", instFromRequest);
 
         }
@@ -73,8 +72,8 @@ namespace ApplyWhatILearn.Controllers
         {
             InstructorCreateViewModel instructorViewModel = new InstructorCreateViewModel
             {
-                DeptList = context.Departments.ToList(),
-                CrsList = context.Courses.ToList()
+                DeptList = _context.Departments.ToList(),
+                CrsList = _context.Courses.ToList()
             };
 
             return View("Create", instructorViewModel);
@@ -88,15 +87,15 @@ namespace ApplyWhatILearn.Controllers
 
             if (instructorFromRequest != null)
             {
-                var instructor = _mapper.Map<Instructor>(instructorFromRequest);
-                context.Instructors.Add(instructor);
-                context.SaveChanges();
+                Instructor instructor = _mapper.Map<Instructor>(instructorFromRequest);
+                _context.Instructors.Add(instructor);
+                _context.SaveChanges();
 
                 return RedirectToAction("ShowUser", new { id = instructor.Id });
             }
 
-            instructorFromRequest.DeptList = context.Departments.ToList();
-            instructorFromRequest.CrsList = context.Courses.ToList();
+            instructorFromRequest.DeptList = _context.Departments.ToList();
+            instructorFromRequest.CrsList = _context.Courses.ToList();
             return View("Create", instructorFromRequest);
 
         }
