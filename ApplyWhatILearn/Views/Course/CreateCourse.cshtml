@@ -9,18 +9,24 @@
 <!DOCTYPE html>
 
 <form asp-controller="Course" asp-action="CreateCourse" method="post">
+    <div asp-validation-summary="All"></div>
     <div>
         <label asp-for="Name"></label>
         <input asp-for="Name" class="form form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div>
         <label asp-for="Degree"></label>
         <input asp-for="Degree" class="form form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+
     </div>
 
     <div>
         <label asp-for="MinDegree"></label>
         <input asp-for="MinDegree" class="form form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+
     </div>
 
     <div>

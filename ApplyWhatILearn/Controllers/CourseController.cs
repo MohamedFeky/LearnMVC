@@ -53,7 +53,7 @@ namespace ApplyWhatILearn.Controllers
         [HttpPost]
         public IActionResult CreateCourse(CourseCreateViewModel CrsFromRequest)
         {
-            if(CrsFromRequest != null)
+            if(ModelState.IsValid)
             {
                 Course course = _mapper.Map<Course>(CrsFromRequest);
                 _context.Courses.Add(course);
