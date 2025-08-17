@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\CsharpProjects\\LearnMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\views\\trainee\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\views\\course\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\views\\course\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|solutionrelative:applywhatilearn\\controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72F1DBB3-781D-4682-B2CB-3D9ADAECA22C}|ApplyWhatILearn\\ApplyWhatILearn.csproj|d:\\csharpprojects\\learnmvc\\applywhatilearn\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,27 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "ApplyWhatILearn\\Models\\Course.cs",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Models\\Course.cs*",
-              "RelativeToolTip": "ApplyWhatILearn\\Models\\Course.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T16:04:13.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateCourse.cshtml",
-              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Course\\CreateCourse.cshtml",
-              "RelativeDocumentMoniker": "ApplyWhatILearn\\Views\\Course\\CreateCourse.cshtml",
-              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Course\\CreateCourse.cshtml*",
-              "RelativeToolTip": "ApplyWhatILearn\\Views\\Course\\CreateCourse.cshtml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAsAAAAkAAAAAAAAAA==",
+              "Title": "ShowResult.cshtml",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Trainee\\ShowResult.cshtml",
+              "RelativeDocumentMoniker": "ApplyWhatILearn\\Views\\Trainee\\ShowResult.cshtml",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Views\\Trainee\\ShowResult.cshtml*",
+              "RelativeToolTip": "ApplyWhatILearn\\Views\\Trainee\\ShowResult.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-22T16:01:58.146Z",
+              "WhenOpened": "2025-08-17T13:12:12.194Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +45,22 @@
               "RelativeDocumentMoniker": "ApplyWhatILearn\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Controllers\\CourseController.cs",
               "RelativeToolTip": "ApplyWhatILearn\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwDcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:12:05.191Z",
+              "WhenOpened": "2025-08-17T13:08:32.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TraineeController.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Controllers\\TraineeController.cs",
+              "RelativeDocumentMoniker": "ApplyWhatILearn\\Controllers\\TraineeController.cs",
+              "ToolTip": "D:\\CsharpProjects\\LearnMVC\\ApplyWhatILearn\\Controllers\\TraineeController.cs*",
+              "RelativeToolTip": "ApplyWhatILearn\\Controllers\\TraineeController.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T09:07:25.713Z",
               "EditorCaption": ""
             }
           ]

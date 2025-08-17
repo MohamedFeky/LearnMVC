@@ -1,0 +1,14 @@
+﻿@using ApplyWhatILearn.ViewModel
+@model ShowCrsResultViewModel
+
+<h2>The Result</h2>
+
+<p><strong>Trainee:</strong> @Model.TraineeName</p>
+<p><strong>course:</strong> @Model.CourseName</p>
+<p><strong>degree:</strong> @Model.Degree</p>
+<p>
+    <strong>Degree:</strong>
+    <span style="color:@Model.Color;">
+        @Model.Degree / Min: @Model.MinDegree
+    </span>
+</p>
